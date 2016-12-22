@@ -21,6 +21,7 @@ package
             _assetMediator = new DefaultAssetMediator(assetManager);
             uiBuilder = new UIBuilder(_assetMediator);
 
+            assetManager.enqueue(EmbeddedAssets);
             //assetManager.enqueue(File.applicationDirectory.resolvePath("textures"));
             assetManager.loadQueue(function(ratio:Number):void{
                 if (ratio == 1)
@@ -32,9 +33,7 @@ package
 
         private function init():void
         {
-            var data:Object = JSON.parse(new EmbeddedLayouts.Hello);
-            var sprite:Sprite = uiBuilder.create(data) as Sprite;
-            addChild(sprite);
+            addChild(new HUD());
         }
     }
 }
