@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Created with TexturePacker http://www.codeandweb.com/texturepacker-->
+<!-- $TexturePacker:SmartUpdate:30007894fad5758018f9329762b4bd8e:11e7b642d02ed71e31bb4d7674adf49d:cde709370900f12288f3449eded86f07$ -->
+<TextureAtlas imagePath="atlas.png" width="356" height="255">
+    <SubTexture name="0" x="2" y="138" width="115" height="115" frameX="-18" frameY="-18" frameWidth="150" frameHeight="150"/>
+    <SubTexture name="1" x="2" y="2" width="128" height="134" frameX="-11" frameY="-8" frameWidth="150" frameHeight="150"/>
+    <SubTexture name="2" x="132" y="2" width="116" height="131" frameX="-17" frameY="-10" frameWidth="150" frameHeight="150"/>
+    <SubTexture name="blue_panel" x="119" y="138" width="100" height="100"/>
+    <SubTexture name="gold" x="250" y="104" width="84" height="84"/>
+    <SubTexture name="green_button" x="221" y="190" width="49" height="49"/>
+    <SubTexture name="grey_button" x="272" y="190" width="49" height="49"/>
+    <SubTexture name="grey_panel" x="250" y="2" width="100" height="100"/>
+    <SubTexture name="star" x="323" y="190" width="31" height="30"/>
+</TextureAtlas>
